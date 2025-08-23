@@ -1,0 +1,21 @@
+{
+  "meta": { "title": "Mezkenz – IT TeamLead Services & Coaching", "description": "Mezkenz helps companies build, lead and optimize IT teams: coaching, team building, outsourcing and delivery support." },
+  "nav": { "services": "Services", "about": "About", "contact": "Contact", "cta": "Book a call" },
+  "hero": { "tag": "IT Team Leadership • Coaching • Team Building", "title": "Your partner in IT team leadership and growth",
+    "lead": "I help companies build, lead and optimize IT teams. From coaching internal team leads to outsourcing complete teams — Mezkenz brings structure, speed and results. We help bring tools to production with a focus on productivity and team motivation.",
+    "ctaPrimary": "Book a call", "ctaSecondary": "See services", "why": "Why Mezkenz?",
+    "whyPoints": ["Build teams from scratch, clarify roles and streamline hiring.","Leadership & coaching that boost motivation and ownership.","Better predictability: clear cadence, metrics and delivery.","Available in 🇧🇪 and remote internationally."] },
+  "services": { "title": "Services", "subtitle": "Choose the support that moves you forward today.",
+    "items": [
+      { "title": "IT TeamLead Services", "bullets": ["Interim or external team lead bringing structure and pace.","Roadmaps, cadence (scrum) and clear responsibilities.","Focus on productivity and team motivation."] },
+      { "title": "IT Coaching", "bullets": ["1‑on‑1 guidance for (new) team leads.","Communication, feedback and stakeholder management.","Team performance and growth."] },
+      { "title": "Team Building & Outsourcing", "bullets": ["Advice and execution for assembling teams.","Outsourcing strategy, partner selection and governance.","Knowledge transfer and onboarding."] },
+      { "title": "Project Assistance", "bullets": ["Implementation and go‑live support for new tools.","Process improvement and documentation.","Temporary reinforcement for teams."] }
+    ]},
+  "about": { "title": "About Mezkenz", "text1": "I'm <b>[your name]</b>, an IT Team Lead with experience building and leading teams. I combine technical know‑how with leadership and coaching so organizations not only ship projects but also build strong teams ready for the future.", "mission": "Mission: sustainable IT teams that work efficiently, stay motivated and think ahead.", "strengthsTitle": "Strengths",
+    "strengths": ["Teams from scratch: roles, hiring, onboarding","Clear metrics and cadence; better predictability","Coaching approach that motivates and drives ownership"] },
+  "contact": { "title": "Contact", "subtitle": "Ready to spar? Send a message or book a call.",
+    "form": { "name": "Name", "company": "Company", "email": "Email", "message": "Message", "send": "Send", "orMail": "Or email directly" },
+    "business": { "heading": "Company details", "kbo": "KBO: [after registration] · VAT: [after activation]" } },
+  "footer": { "made": "Made with ❤️ for high‑performing teams", "rights": "All rights reserved" }
+}

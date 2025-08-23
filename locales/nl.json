@@ -1,0 +1,21 @@
+{
+  "meta": { "title": "Mezkenz – IT TeamLead Services & Coaching", "description": "Mezkenz helpt bedrijven met IT teamleiderschap, coaching, teamopbouw, outsourcing en delivery support." },
+  "nav": { "services": "Diensten", "about": "Over", "contact": "Contact", "cta": "Plan een kennismaking" },
+  "hero": { "tag": "IT Teamleiderschap • Coaching • Teamopbouw", "title": "Jouw partner in IT teamleiderschap en groei",
+    "lead": "Ik help bedrijven bij het bouwen, leiden en optimaliseren van IT‑teams. Van coaching van interne teamleads tot het outsourcen van complete teams — Mezkenz brengt structuur, snelheid en resultaat. We helpen tools succesvol in productie te brengen met focus op productiviteit én teammotivatie.",
+    "ctaPrimary": "Plan een kennismaking", "ctaSecondary": "Bekijk diensten", "why": "Waarom Mezkenz?",
+    "whyPoints": ["Teams vanaf nul opbouwen, rollen scherp zetten en hiring stroomlijnen.","Leiderschap & coaching die motivatie en eigenaarschap versterken.","Betere voorspelbaarheid: duidelijke ritmes, metrics en delivery.","Beschikbaar in 🇧🇪 en remote internationaal."] },
+  "services": { "title": "Diensten", "subtitle": "Kies de ondersteuning die je vandaag sneller vooruit helpt.",
+    "items": [
+      { "title": "IT TeamLead Services", "bullets": ["Tijdelijke of externe teamlead die structuur en tempo brengt.","Roadmaps, ritme (scrum) en duidelijke verantwoordelijkheden.","Focus op productiviteit én teammotivatie."] },
+      { "title": "IT Coaching", "bullets": ["1‑op‑1 begeleiding van (nieuwe) teamleads.","Communicatie, feedback en stakeholdermanagement.","Teamperformantie en groei."] },
+      { "title": "Teamopbouw & Outsourcing", "bullets": ["Advies en uitvoering bij samenstellen van teams.","Outsourcingstrategie, partnerkeuze en governance.","Kennisoverdracht en onboarding."] },
+      { "title": "Projectassistentie", "bullets": ["Implementatie en go‑live support voor nieuwe tools.","Procesverbetering en documentatie.","Tijdelijke versterking van teams."] }
+    ]},
+  "about": { "title": "Over Mezkenz", "text1": "Ik ben <b>[jouw naam]</b>, IT TeamLead met ervaring in het opbouwen en aansturen van teams. Ik combineer technische kennis met leiderschap en coaching, zodat organisaties niet alleen projecten opleveren, maar ook sterke teams bouwen die klaar zijn voor de toekomst.", "mission": "Missie: duurzame IT‑teams die efficiënt, gemotiveerd en toekomstgericht werken.", "strengthsTitle": "Troeven",
+    "strengths": ["Teams from scratch: rollen, hiring, onboarding","Heldere metrics en ritme; betere voorspelbaarheid","Coaching‑aanpak die motiveert en eigenaarschap stimuleert"] },
+  "contact": { "title": "Contact", "subtitle": "Klaar om te sparren? Stuur een bericht of plan meteen een kennismaking.",
+    "form": { "name": "Naam", "company": "Bedrijf", "email": "E‑mail", "message": "Bericht", "send": "Verstuur", "orMail": "Of mail direct" },
+    "business": { "heading": "Bedrijfsgegevens", "kbo": "KBO: [na inschrijving] · BTW: [na activatie]" } },
+  "footer": { "made": "Made with ❤️ for high‑performing teams", "rights": "Alle rechten voorbehouden" }
+}
