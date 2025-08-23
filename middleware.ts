@@ -1,17 +1,21 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { locales, defaultLocale } from "@/lib/i18n";
+
+// Zelfstandige i18n-config (geen imports nodig)
+const locales = ["en", "nl"] as const;
+type Locale = (typeof locales)[number];
+const defaultLocale: Locale = "en";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Ignore Next assets, API routes, and files
+  // assets/api/ bestanden overslaan
   if (pathname.startsWith("/_next") || pathname.startsWith("/api") || pathname.includes(".")) return;
 
-  // Does the path already include a locale?
+  // Heeft het pad al een locale?
   const hasLocale = locales.some((loc) => pathname === `/${loc}` || pathname.startsWith(`/${loc}/`));
 
-  // If not, redirect to the default locale (/en)
+  // Zo niet: redirect naar default (/en)
   if (!hasLocale) {
     const url = request.nextUrl.clone();
     url.pathname = `/${defaultLocale}${pathname}`;
@@ -20,3 +24,4 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = { matcher: ["/((?!_next|.*\\..*|api).*)"] };
+
