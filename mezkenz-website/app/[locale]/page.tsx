@@ -1,0 +1,1 @@
+import {getDictionary} from "@/lib/dictionaries";import {isLocale,defaultLocale,type Locale} from "@/lib/i18n";export default async function Page({params}:{params:{locale:string}}){const l=isLocale(params.locale)?params.locale:defaultLocale;const d=await getDictionary(l as Locale);return <div><h1>{d.hero.title}</h1><p>{d.hero.lead}</p></div>;}

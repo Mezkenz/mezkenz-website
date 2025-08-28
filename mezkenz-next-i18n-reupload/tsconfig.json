@@ -1,0 +1,4 @@
+{
+  "compilerOptions": {"jsx": "preserve","strict": true},
+  "include": ["next-env.d.ts","**/*.ts","**/*.tsx"]
+}
