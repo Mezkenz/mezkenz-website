@@ -1,1 +1,23 @@
-import type { Metadata } from "next";import {getDictionary} from "@/lib/dictionaries";import {defaultLocale,isLocale,type Locale} from "@/lib/i18n";export async function generateMetadata({params}:{params:{locale:string}}):Promise<Metadata>{const l=isLocale(params.locale)?params.locale:defaultLocale;const dict=await getDictionary(l as Locale);return {title:dict.hero.title};}export default function RootLayout({children}:{children:React.ReactNode}){return <html><body>{children}</body></html>}
+import { defaultLocale, isLocale, type Locale } from "@/lib/i18n";
+
+export const metadata = {
+  title: "Mezkenz",
+  description: "IT TeamLead Services & Coaching"
+};
+
+export default function RootLayout({
+  children,
+  params
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
+  const loc = isLocale(params.locale) ? (params.locale as Locale) : defaultLocale;
+  return (
+    <html lang={loc}>
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}
