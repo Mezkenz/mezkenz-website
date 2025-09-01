@@ -1,21 +1,74 @@
 {
-  "meta": { "title": "Mezkenz – IT TeamLead Services & Coaching", "description": "Mezkenz helps companies build, lead and optimize IT teams: coaching, team building, outsourcing and delivery support." },
-  "nav": { "services": "Services", "about": "About", "contact": "Contact", "cta": "Book a call" },
-  "hero": { "tag": "IT Team Leadership • Coaching • Team Building", "title": "Your partner in IT team leadership and growth",
-    "lead": "I help companies build, lead and optimize IT teams. From coaching internal team leads to outsourcing complete teams — Mezkenz brings structure, speed and results. We help bring tools to production with a focus on productivity and team motivation.",
-    "ctaPrimary": "Book a call", "ctaSecondary": "See services", "why": "Why Mezkenz?",
-    "whyPoints": ["Build teams from scratch, clarify roles and streamline hiring.","Leadership & coaching that boost motivation and ownership.","Better predictability: clear cadence, metrics and delivery.","Available in 🇧🇪 and remote internationally."] },
-  "services": { "title": "Services", "subtitle": "Choose the support that moves you forward today.",
+  "meta": { "title": "Mezkenz – IT Leadership & Consultancy", "description": "Independent IT Support Leader offering team lead services, project management, process improvement and IT consultancy." },
+  "nav": { "services": "Services", "about": "About", "contact": "Contact", "cta": "Get in touch" },
+  "hero": {
+    "tag": "Independent IT Support Leader",
+    "title": "25+ Years Driving Service Excellence",
+    "lead": "Starting October 2025 I will operate as an independent professional helping organizations elevate service desk and end-user support operations.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "View services",
+    "why": "What I Offer",
+    "whyPoints": [
+      "Interim IT support team leadership & supervision.",
+      "Process optimization and ITIL\u00a04–driven service improvements.",
+      "Microsoft\u00a0365 & ServiceNow implementation and management.",
+      "Mentoring and developing high-performing support teams."
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Support to stabilize, optimize or transform your IT operations.",
     "items": [
-      { "title": "IT TeamLead Services", "bullets": ["Interim or external team lead bringing structure and pace.","Roadmaps, cadence (scrum) and clear responsibilities.","Focus on productivity and team motivation."] },
-      { "title": "IT Coaching", "bullets": ["1‑on‑1 guidance for (new) team leads.","Communication, feedback and stakeholder management.","Team performance and growth."] },
-      { "title": "Team Building & Outsourcing", "bullets": ["Advice and execution for assembling teams.","Outsourcing strategy, partner selection and governance.","Knowledge transfer and onboarding."] },
-      { "title": "Project Assistance", "bullets": ["Implementation and go‑live support for new tools.","Process improvement and documentation.","Temporary reinforcement for teams."] }
-    ]},
-  "about": { "title": "About Mezkenz", "text1": "I'm <b>[your name]</b>, an IT Team Lead with experience building and leading teams. I combine technical know‑how with leadership and coaching so organizations not only ship projects but also build strong teams ready for the future.", "mission": "Mission: sustainable IT teams that work efficiently, stay motivated and think ahead.", "strengthsTitle": "Strengths",
-    "strengths": ["Teams from scratch: roles, hiring, onboarding","Clear metrics and cadence; better predictability","Coaching approach that motivates and drives ownership"] },
-  "contact": { "title": "Contact", "subtitle": "Ready to spar? Send a message or book a call.",
+      {
+        "title": "IT Team Lead Services",
+        "bullets": [
+          "Hands-on leadership for service desks and support teams.",
+          "Coaching and performance follow-up to build accountable teams.",
+          "Coordination across regions and vendors."
+        ]
+      },
+      {
+        "title": "Project Management",
+        "bullets": [
+          "Service transitions and IT migrations.",
+          "Rollout of new tools and services.",
+          "KPI tracking and reporting."
+        ]
+      },
+      {
+        "title": "Process Improvement",
+        "bullets": [
+          "ITIL\u00a04 based process optimization.",
+          "Knowledge management and documentation.",
+          "Reducing downtime and increasing user satisfaction."
+        ]
+      },
+      {
+        "title": "IT Consultancy",
+        "bullets": [
+          "Microsoft\u00a0365 & ServiceNow implementation.",
+          "Mentoring for team leads and support staff.",
+          "Strategy to build high-performing support operations."
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "About Mezkenz",
+    "text1": "I'm <b>Mezkenz</b>, an IT support leader with more than 25 years of experience including 9 years as team lead and supervisor. I combine technical expertise with people-focused leadership to deliver stable, efficient and motivated support teams.",
+    "mission": "Mission: provide proven leadership that keeps your IT support running and evolving.",
+    "strengthsTitle": "Experience Highlights",
+    "strengths": [
+      "FedEx IT Support Supervisor 2018–2025, coordinating L2 support across Europe.",
+      "Led service transitions for multinational mergers and migrations.",
+      "ITIL\u00a04 Certified; extensive Microsoft 365 and ServiceNow expertise."
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's connect if you need leadership to stabilize or transform your IT support.",
     "form": { "name": "Name", "company": "Company", "email": "Email", "message": "Message", "send": "Send", "orMail": "Or email directly" },
-    "business": { "heading": "Company details", "kbo": "KBO: [after registration] · VAT: [after activation]" } },
-  "footer": { "made": "Made with ❤️ for high‑performing teams", "rights": "All rights reserved" }
+    "business": { "heading": "Company details", "kbo": "KBO: [after registration] · VAT: [after activation]" }
+  },
+  "footer": { "made": "Made with ❤️ for service excellence", "rights": "All rights reserved" }
 }
