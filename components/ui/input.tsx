@@ -5,10 +5,10 @@ export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> 
 export const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, ...props }, ref) => (
     <input
-      className={cn(
-        "flex h-10 w-full rounded-md border border-gray-300 bg-white px-3 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#2ea44f]",
-        className
-      )}
+        className={cn(
+          "flex h-10 w-full rounded-md border border-gray-700 bg-[#1a1a1a] px-3 text-sm text-gray-100 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#8b5cf6]",
+          className
+        )}
       ref={ref}
       {...props}
     />
