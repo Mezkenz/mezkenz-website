@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Mezkenz – IT TeamLead Services & Coaching",
-  description: "Mezkenz helpt bedrijven met IT teamleiderschap, coaching, teamopbouw, outsourcing en projectassistentie.",
+  title: "Mezkenz – IT Leadership & Consultancy",
+  description:
+    "Independent IT Support Leader offering team lead services, project management, process improvement and IT consultancy.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="nl">
-      <body className={inter.className}>{children}</body>
+    <html lang="en">
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
