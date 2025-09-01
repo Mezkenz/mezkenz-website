@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { CheckCircle2 } from "lucide-react";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import ContactForm from "@/components/ContactForm";
 import { getDictionary } from "@/lib/dictionaries";
 import { isLocale, type Locale, defaultLocale } from "@/lib/i18n";
 
@@ -92,13 +91,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
       <section id="contact" className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="text-3xl font-bold text-white">{dict.contact.title}</h2>
         <p className="mt-2 text-lg text-gray-300">{dict.contact.subtitle}</p>
-        <form className="mt-6 grid gap-4 md:grid-cols-2">
-          <Input placeholder={dict.contact.form.name} />
-          <Input placeholder={dict.contact.form.company} />
-          <Input placeholder={dict.contact.form.email} className="md:col-span-2" />
-          <Textarea placeholder={dict.contact.form.message} className="md:col-span-2" />
-          <Button className="md:col-span-2">{dict.contact.form.send}</Button>
-        </form>
+        <ContactForm dict={dict.contact.form} />
         <p className="mt-6 text-gray-300">
           {dict.contact.form.orMail}: <a href="mailto:info@mezkenz.com" className="text-purple-400">info@mezkenz.com</a>
         </p>
